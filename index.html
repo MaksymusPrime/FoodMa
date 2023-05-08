@@ -6,12 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="https://maksymusprime.github.io/FoodMa/img/con.webp" type="image/x-icon">
+    <link rel="icon" href="https://maksymusprime.github.io/FoodMa/img/icon.webp" type="image/x-icon">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
 
     <title>FoodMa</title>
@@ -54,35 +61,35 @@
 <!-- Home section start -->
 
 <section class="home" id="home">
-<div class="home-slider">
-    <div class="wrapper">
-        <div class="slide">
+<div class="swiper home-slider">
+    <div class="swiper-wrapper wrapper">
+        <div class="swiper-slide slide">
             <div class="content">
                 <span>Our special dish</span>
-                <h3>Fruity oatmill</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt et magni, magnam nihil voluptas mollitia culpa</p>
+                <h3>Peperonni pizza</h3>
+                <p>American classic...hot pepperoni pizza for the end of the busy work day...</p>
                 <a href="#" class="btn">Order now</a>
             </div>
             <div class="image">
                 <img src="images/home1.png" alt="">
             </div>
         </div>
-        <div class="slide">
+        <div class="swiper-slide slide">
             <div class="content">
                 <span>Our special dish</span>
                 <h3>Chicken noodles</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt et magni, magnam nihil voluptas mollitia culpa </p>
+                <p>Country-side grown chicken and chinese noodles finished with fresh tomatoes</p>
                 <a href="#" class="btn">Order now</a>
             </div>
             <div class="image">
                 <img src="images/home2.png" alt="">
             </div>
         </div>
-        <div class="slide">
+        <div class="swiper-slide slide">
             <div class="content">
                 <span>Our special dish</span>
-                <h3>Peperonni pizza</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt et magni, magnam nihil voluptas mollitia culpa</p>
+                <h3>Salmon salad</h3>
+                <p>Smoked salmon, olive oil and fresh veggies, what can be better?!</p>
                 <a href="#" class="btn">Order now</a>
             </div>
             <div class="image">
@@ -90,6 +97,9 @@
             </div>
         </div>
     </div>
+
+    <div class="swiper-pagination"></div>
+
 </div>
 </section>
 
