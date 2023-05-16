@@ -40,7 +40,7 @@ let navbar = document.querySelector('.navbar');
         spaceBetween: 20,
         centeredSlides: true,
                autoplay: {
-          delay: 4500,
+          delay: 6500,
           disableOnInteraction: false
         },
         loop:true,
@@ -59,3 +59,13 @@ let navbar = document.querySelector('.navbar');
         },
       },
             });
+
+            function loader () {
+              document.querySelector ('.loader-container').classList.add('fade-out');
+            }
+
+            function fadeOut () {
+              setInterval(loader, 4000); 
+            }
+
+            window.onload = fadeOut;
