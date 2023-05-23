@@ -6,12 +6,7 @@ let navbar = document.querySelector('.navbar');
         navbar.classList.toggle('active');
         menu.classList.toggle('fa-xmark');
     })
-
-
-    window.onscroll = () => {
-        menu.classList.remove ('fas fa-times');
-        navbar.classList.remove ('active');
-    }
+    
   
     document.querySelector ('#search-icon').onclick = () => {
         document.querySelector ('#search-form').classList.toggle ('active');
@@ -65,7 +60,7 @@ let navbar = document.querySelector('.navbar');
             }
 
             function fadeOut () {
-              setInterval(loader, 4000); 
+              setInterval(loader, 2500); 
             }
 
             window.onload = fadeOut;

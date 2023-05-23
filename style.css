@@ -22,6 +22,7 @@
     transition: all .2s linear;
 }
 
+  
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -109,6 +110,10 @@ header .navbar a{
     
 }
 
+.active {
+     color: #fff;
+    background: var(--green);
+    }
 
 
 header .navbar a.active,
